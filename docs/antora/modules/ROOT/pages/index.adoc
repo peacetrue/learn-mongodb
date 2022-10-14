@@ -1,7 +1,7 @@
 = 简介
 :website: https://peacetrue.github.io
 :app-name: learn-mongodb
-:foresight-repo-id: 02ea4d16-76a8-4400-bed3-47c567a7286d
+:foresight-repo-id: c4f4b0fc-5f41-4ff9-9bd7-28b95633b66c
 :imagesdir: docs/antora/modules/ROOT/assets/images
 
 image:https://img.shields.io/github/workflow/status/peacetrue/{app-name}/build/master["GitHub Workflow Status",link="https://github.com/peacetrue/{app-name}/actions"]
