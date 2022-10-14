@@ -1,0 +1,19 @@
+
+plugins {
+    id "com.github.peacetrue.gradle.build-convention" version "${peaceGradleVersion}${tailSnapshot}"
+
+}
+
+group "com.github.peacetrue.learn.mongodb"
+version "${learnMongodbVersion}${tailSnapshot}"
+description "学习 mongodb"
+
+dependencies {
+    implementation platform("org.springframework.data:spring-data-bom:2021.2.5") //版本管理
+
+//    testImplementation 'org.mongodb:mongo-java-driver:3.12.11'
+    testImplementation 'com.github.peacetrue:peacetrue-common'
+    testImplementation 'com.github.peacetrue.spring:peacetrue-spring-beans'
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+    testImplementation "org.springframework.boot:spring-boot-starter-data-mongodb"
+}
